@@ -80,7 +80,7 @@
 
             // Executive object created using parameterized constructor
             Executive oliver = new Executive(10, "Oliver", "Warbucks", "Chief Operations Officer", 345000);
-            Console.WriteLine($"\n{oliver.Fullname()}'s annual salary is ${oliver.Pay()}");
+            Console.WriteLine($"\n{oliver.Fullname()}'s annual salary is ${oliver.Pay()}.");
 
             //Executive object created using the default constructor
             Executive max = new Executive();
@@ -89,7 +89,7 @@
             max.LastName = "Veers";
             max.Title = "Chief Executive Officer";
             max.Salary = 501000;
-            Console.WriteLine($"\n{max.Fullname()}'s annual salary is ${max.Pay()}");
+            Console.WriteLine($"\n{max.Fullname()}'s annual salary is ${max.Pay()}.");
 
         }
     }
